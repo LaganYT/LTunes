@@ -1,0 +1,9 @@
+,
+    {
+      "name": "name",
+      "fmDial": "0",
+      "url": "link",
+      "directStream": true,
+      "icon": "iconurl",
+      "description": "desc"
+    }
