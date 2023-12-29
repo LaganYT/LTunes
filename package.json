@@ -1,0 +1,37 @@
+{
+    "name": "nextjs-radio-podcast-lyrics",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "axios": "^1.5.1",
+      "solenolyrics": "^5.0.0",
+      "node-fetch": "^3.3.2",
+      "next": "^13.5.4",
+      "node-ytdl-core-v2": "^2.0.0",
+      "ytdl-core": "latest",
+      "ytdl-mp3": "latest",
+      "stream": "latest",
+      "util": "latest",
+      "react": "^18.2.0",
+      "open": "latest",
+      "react-dom": "^18.2.0",
+      "cheerio": "latest",
+      "yt-search": "^2.10.4",
+      "react-loader-spinner": "^5.4.5",
+      "querystring": "^0.2.1",
+      "fluent-ffmpeg": "latest",
+      "ytsr": "latest",
+      "ffmpeg": "latest",
+      "@ffmpeg-installer/ffmpeg": "latest",
+      "request-promise": "^4.2.6",
+      "podcast-index-api": "^1.1.10",
+      "@fortawesome/fontawesome-svg-core": "^1.2.35",
+      "@fortawesome/free-solid-svg-icons": "^5.15.3",
+      "@fortawesome/react-fontawesome": "^0.1.15",
+      "@j0r6it0/lyricsfinder": "^1.2.2",
+      "encoding": "^0.1.13"
+          }
+  }

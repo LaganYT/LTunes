@@ -1,0 +1,265 @@
+/* styles/styles.css */
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Add space between header and search bar */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: fit-content; /* Set a fixed width for the input */
+  width: auto;
+  margin-bottom: 20px; /* Add space between search bar and results */
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 70vw;
+}
+
+.selectButtons button {
+  background-color: #F77D24; /* Spotify green */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.selectButtons button:hover {
+  background-color: #d76c20; /* Spotify green */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+
+.selectButtons button:active {
+  background-color: #a34400; /* Spotify green */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap; /* Allow results to wrap to the next line if needed */
+  justify-content: center; /* Center the results horizontally */
+  gap: 16px;
+  max-width: 80%; /* Take up around 80% of the available width */
+  margin-bottom: 20px;
+  word-break: break-word;
+  word-wrap: break-word;
+  line-break: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  overflow: scroll;
+  flex-direction: row; /* Stack thumbnail and info vertically */
+  overflow: hidden;
+}
+
+.audio-player {
+  position: sticky;
+  bottom: 0; /* Stick to the bottom of the viewport */
+  z-index: 100;
+  overflow: hidden;
+  background-color: #161616c4; /* Dark background color */
+  text-align: center;
+  align-items: center;
+  max-width: fit-content;
+  text-size-adjust: auto;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.5); /* Add shadow to the player */
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column; /* Stack thumbnail and info vertically */
+  align-items: center;
+  background-color: #282828; /* Dark card background color */
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px; /* Limit the width of each result */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  min-height: 20%;
+  max-height: 20%;
+  min-width: 20%;
+  max-width: 20%; /* Take up around 20% of the available width */
+  word-break: break-word;
+  word-wrap: break-word;
+  line-break: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.thumbnail img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 4px;
+  margin-bottom: 8px; /* Add space between thumbnail and info */
+}
+
+.info {
+  flex: 1;
+}
+
+.info h3 {
+  font-size: 16px;
+  margin: 0;
+  word-break: break-word;
+  word-wrap: break-word;
+  line-break: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+
+.info p {
+  font-size: 14px;
+  color: #888888; /* Gray text color */
+  word-break: break-word;
+  word-wrap: break-word;
+  line-break: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+p.no-results {
+  font-size: 16px;
+  text-align: center;
+}
+
+.lyrics {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  max-width: 20vw;
+  max-height: 40vh;
+  white-space: pre-wrap; /* Ensure line breaks are preserved */
+  overflow-y: auto; /* Enable the vertical scrollbar when needed */
+  overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+
+
+
+/* Add a media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .search-results {
+    max-width: 100%; /* Take up 100% of the available width on mobile */
+    padding: 8px; /* Reduce padding on mobile for less space */
+  }
+
+  .search-result {
+    display: flex;
+    flex-direction: column; /* Stack thumbnail and info vertically */
+    align-items: center;
+    background-color: #282828; /* Dark card background color */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    word-break: break-word;
+    word-wrap: break-word;
+    line-break: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    padding: 8px; /* Reduce padding on mobile for less space */
+    min-height: auto; /* Allow height to adjust based on content */
+    max-height: auto; /* Allow height to adjust based on content */
+    min-width: 80%; /* Allow width to adjust based on content */
+    max-width: 80%;
+  }
+  
+  .thumbnail img {
+    max-width: 80px; /* Reduce thumbnail size on mobile */
+    max-height: 80px; /* Reduce thumbnail size on mobile */
+  }
+  
+  .info h3 {
+    font-size: 22px; /* Reduce heading font size on mobile */
+  }
+  
+  .info p {
+    font-size: 20px; /* Reduce paragraph font size on mobile */
+  }
+  .audio-player img {
+    display: none;
+  }
+  .lyrics {
+    max-width: 100vw;
+    min-width: none;
+    word-break: break-word;
+    word-wrap: break-word;
+    line-break: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    display: flex;
+    flex-direction: column; /* Stack thumbnail and info vertically */
+    align-items: center;
+    overflow-y: wrap;
+  }
+  .lyricText {
+    margin: 10px;
+  }
+
+  .audio-player {
+    position: sticky;
+    bottom: 0; /* Stick to the bottom of the viewport */
+    z-index: 100;
+    overflow: hidden;
+    background-color: #161616c4; /* Dark background color */
+    word-break: break-word;
+    word-wrap: break-word;
+    line-break: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    text-align: center;
+    width: fit-content;
+    min-width: fit-content;
+    align-items: center;
+    max-width: 100%;
+    text-size-adjust: auto;
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "name": "KFOK",
+    "fmDial": "95.1",
+    "url": "https://kfok.streamguys1.com/live-mp3",
+    "directStream": true,
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG70tvBkFs1j6CObf3oOJ20dzi_gQjjhkl5WjFPs4vchugkdQsb5oowJNNFH2f2sPUMwY&usqp=CAU",
+    "description": "A mixed variaty of music from a local station!"
+  },
+  {
+    "name": "ALT",
+    "fmDial": "94.7",
+    "url": "https://live.amperwave.net/direct/audacy-kkdofmaac-imc",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic-media.streema.com%2Fmedia%2Fcache%2F6f%2F3e%2F6f3e28eab8b710e82e3a80c54d33761b.jpg&f=1&nofb=1&ipt=ed36246c407e20c627b11419b489d84b39d775550f89cf97975447211591bde4&ipo=images",
+    "description": "Alternative Music"
+  },
+  {
+    "name": "V101",
+    "fmDial": "101.1",
+    "url": "https://stream.revma.ihrhls.com/zc225",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.iheart.com%2Fv3%2Fre%2Fassets%2Fimages%2F85082e91-c5be-4c66-a0fa-7305d8175eb5.png%3Fops%3Dfit(240%252C240)&f=1&nofb=1&ipt=a826d0a9317176c60952b255625da00db708e29baa3c30862f7fe31510d296b6&ipo=images",
+    "description": "Hip hop & RnB"
+  },
+  {
+    "name": "Kiss",
+    "fmDial": "107.9",
+    "url": "https://stream.revma.ihrhls.com/zc9429",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.allaccess.com%2Fassets%2Fimg%2Feditorial%2Fraw%2Fki%2Fkiss1079_logo-2022-06-08.png&f=1&nofb=1&ipt=c15ce72bb647149458b17a1630a4b0a9be547ba0272604a159c526117f480993&ipo=images",
+    "description": "Variaty of 90s' and 2000s'"
+  },
+  {
+    "name": "River",
+    "fmDial": "93.7",
+    "url": "https://stream.revma.ihrhls.com/zc4314",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-K3dIPJqTabk%2FYA2f8AroKNI%2FAAAAAAAAHCU%2FcOH86mGOFnQTFUamtRJtM_tK1-P8364OACK4BGAYYCw%2Fs16000%2Friver-747527.webp&f=1&nofb=1&ipt=60ccea394e8fcd7b8e7ac1c7dfa602839f7b1040d0c122de22f5b86acc94e212&ipo=images",
+    "description": "Classic Rock"
+  },
+  {
+    "name": "Eagle",
+    "fmDial": "96.9",
+    "url": "https://live.amperwave.net/direct/audacy-ksegfmaac-imc",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fradioonlinelive.com%2Fwp-content%2Fuploads%2F2022%2F06%2F96.9-The-Eagle.jpg&f=1&nofb=1&ipt=05018f364afcb89df6badbd81bf8ad70dbbbc1dcaa23c38024c1b5f1332299d5&ipo=images",
+    "description": "Classic Rock"
+  },
+  {
+    "name": "The Bull",
+    "fmDial": "107.1",
+    "url": "https://stream.revma.ihrhls.com/zc6775",
+    "directStream": true,
+    "icon": "https://i.iheart.com/v3/re/assets.brands/60cb50d4a5adc92523eea214?ops=gravity(%22center%22),contain(500,500)&quality=100",
+    "description": "Country"
+  },
+  {
+    "name": "Wolf",
+    "fmDial": "102.7",
+    "url": "https://stream.revma.ihrhls.com/zc145",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-e-huWC61dZ8%2FYNrRI9PghrI%2FAAAAAAALFnQ%2FIvabPxNlZ08_dOpqtufBABcU_EqeKVGhACLcBGAsYHQ%2Fs0%2F1027thewolf.webp&f=1&nofb=1&ipt=5f3093876778257c812b83c362e7c169a5ea43e8e0d000f60152c24f919e6d02&ipo=images",
+    "description": "Country"
+  },
+  {
+    "name": "MIX",
+    "fmDial": "96.1",
+    "url": "https://bonneville.cdnstream1.com/2615_48.aac",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-profiles.tunein.com%2Fs26668%2Fimages%2Flogog.jpg%3Ft%3D152509&f=1&nofb=1&ipt=119f1543b69dad3ff0c22dc428b5de5d41b436ac234c909a0e993be51b7ee9cd&ipo=images",
+    "description": "Today's hits, yesterday's favorites"
+  },
+  {
+    "name": "The Fox",
+    "fmDial": "98.5",
+    "url": "https://stream.revma.ihrhls.com/zc3240",
+    "directStream": true,
+    "icon": "https://i.iheart.com/v3/re/assets/images/3240.png?ops=fit(960,960),resize(0,390)",
+    "description": "Classic Rock"
+  },
+  {
+    "name": "Kiss FM",
+    "fmDial": "106.1",
+    "url": "https://stream.revma.ihrhls.com/zc2245",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.radio.de%2Fimages%2Fbroadcasts%2Fa5%2F69%2F124873%2F1%2Fc300.png&f=1&nofb=1&ipt=8af14981b75d217e9a7997b9b26688d67116b4dc65d5e743fee9c4f013351737&ipo=images)",
+    "description": "Hits!"
+  },
+  {
+    "name": "KWIN",
+    "fmDial": "97.7",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWINFM.mp3",
+    "directStream": true,
+    "icon": "https://i.iheart.com/v3/re/assets/images/5346.png?ops=fit(960,960),resize(0,390)",
+    "description": "California's hits!"
+  },
+  {
+    "name": "KSFM",
+    "fmDial": "102.5",
+    "url": "https://live.amperwave.net/direct/audacy-ksfmfmaac-imc",
+    "directStream": true,
+    "icon": "https://www.radio.net/images/broadcasts/fd/24/28858/c300.png",
+    "description": "Hottest music of Sacramento"
+  },
+  {
+    "name": "Movin",
+    "fmDial": "92.5",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KQMVFM.mp3",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fliveonlineradio.net%2Fwp-content%2Fuploads%2F2016%2F04%2FMOViN-92.5-220x108.jpg&f=1&nofb=1&ipt=8378e53c2fca5f3fd00dfd30767dc49352b3d43e884328e32a39b5132fb3c930&ipo=images",
+    "description": "Pop, Hip-Hop, RnB"
+  },
+  {
+    "name": "WIXX",
+    "fmDial": "101.1",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIXXFM.mp3",
+    "directStream": true,
+    "icon": "https://th.bing.com/th/id/OIP.XFmMbVARozkroKI7Mpc2agAAAA?w=168&h=180&c=7&r=0&o=5&pid=1.7",
+    "description": "Wisconsin's hits"
+  },
+  {
+    "name": "KOST FM",
+    "fmDial": "103.5",
+    "url": "https://stream.revma.ihrhls.com/zc193",
+    "directStream": true,
+    "icon": "https://th.bing.com/th/id/OIP.idAagGSatlawuvN6evokcwHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7",
+    "description": "LA's feel good station"
+  },
+  {
+    "name": "рок фм",
+    "fmDial": "95.2",
+    "url": "https://nashe1.hostingradio.ru:80/rock-128.mp3",
+    "directStream": true,
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvo-radio.ru%2Fimages%2Flogoweb1%2Frock-fm-180.jpg&f=1&nofb=1&ipt=0a25a2b21c5ae39d40e9fce8c1c1a5d9bb86c85f98aec9aea5747e4971f39254&ipo=images",
+    "description": "Rock"
+  },
+  {
+    "name": "Indie",
+    "fmDial": "88.1",
+    "url": "https://5a8b296144892.streamlock.net/live2/radiostation.stream/playlist.m3u8",
+    "directStream": true,
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIV2ZLN8Au42L_S0k0Xo7yCnzeK5hjAO82XQvq68i6P0IiSBlNnZDlWq7gnpq8K6I6yIg&usqp=CAU",
+    "description": "Indie"
+  },
+  {
+    "name": "The Wolf",
+    "fmDial": "99.5",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPLXFM.mp3",
+    "directStream": true,
+    "icon": "https://i.iheart.com/v3/re/new_assets/5e210b36832096c51548f753?ops=fit(960%2C960)%2Cresize(0%2C390)",
+    "description": "Country"
+  },
+  {
+    "name": "WCOL",
+    "fmDial": "92.3",
+    "url": "https://stream.revma.ihrhls.com/zc1757",
+    "directStream": true,
+    "icon": "https://i.iheart.com/v3/re/new_assets/60e5d8dfde61a98132fdc13f?ops=fit(960%2C960)%2Cresize(0%2C390)",
+    "description": "Country"
+  },
+  {
+    "name": "Q102",
+    "fmDial": "102.1",
+    "url": "https://stream.revma.ihrhls.com/zc1997",
+    "directStream": true,
+    "icon": "https://i.iheart.com/v3/re/assets.brands/5a85a4332763a77576a7f57a?ops=gravity(%22center%22),contain(180,180)&quality=80",
+    "description": "Country"
+  },
+  {
+    "name": "Lofi 24/7",
+    "fmDial": "Web",
+    "url": "https://usa9.fastcast4u.com/proxy/jamz/mp3",
+    "directStream": true,
+    "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2020/02/5e4b24a428bbe-384x384.png",
+    "description": "Listen to calming music to help study or fall asleep."
+  },
+  {
+    "name": "The Block",
+    "fmDial": "94.7",
+    "url": "https://live.amperwave.net/direct/audacy-wxbkfmaac-imc",
+    "directStream": true,
+    "icon": "https://upload.wikimedia.org/wikipedia/en/2/22/94.7_The_Block_logo.png",
+    "description": "Drill Rapper"
+  },
+  {
+    "name": "K-Love",
+    "fmDial": "91.1",
+    "url": "https://maestro.emfcdn.com/stream_for/k-love/web/aac",
+    "directStream": true,
+    "icon": "https://cdn-profiles.tunein.com/s33702/images/logod.png?t=157444",
+    "description": "K-Love is an American contemporary Christian music radio network."
+  }
+]
