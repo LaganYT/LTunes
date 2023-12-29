@@ -1,0 +1,177 @@
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTunes</title>
+        <!-- Primary Meta Tags -->
+    <meta name="title" content="LTunes">
+    <meta name="description" content="Your new favorite place to listen to music, radio and even podcasts! You can use LTunes to download music, listen to live radio, even look up lyrics for songs!">
+    
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ltunes.gq/">
+    <meta property="og:title" content="LTunes">
+    <meta property="og:description" content="Your new favorite place to listen to music, radio and even podcasts! You can use LTunes to download music, listen to live radio, even look up lyrics for songs!">
+    <meta property="og:image" content="https://ltunes.gq/banner.jpg">
+
+        <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ltunes.gq/">
+    <meta property="twitter:title" content="LTunes">
+    <meta property="twitter:description" content="Your new favorite place to listen to music, radio and even podcasts! You can use LTunes to download music, listen to live radio, even look up lyrics for songs!">
+    <meta property="twitter:image" content="https://ltunes.gq/banner.jpg"> 
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    </head>
+<div class="Logo" onclick="location.href = 'https://www.ltunes.gq/'" ;><img src="https://ltunes.gq/assets/Logo.png" width="50" height="50">LTunes</div>
+<center class="w3-display-middle">
+  <style>
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .download-buttons-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .download-button {
+      background-color: #333;
+      border: none;
+      color: #fff;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .download-button:hover {
+      background-color: #555;
+    }
+
+    .download-popup {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+      padding-top: 100px;
+      text-align: center;
+      animation: fade-in 0.3s ease;
+    }
+
+    .download-popup-content {
+      background-color: #333;
+      margin: auto;
+      padding: 20px;
+      width: 60%;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .download-popup-content {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="download-buttons-container">
+    <div class="download-button" onclick="showPopup('Amazon', 'Version 3.0', 'Amazon App Store', '02-23-2023', 'https://www.amazon.com/dp/B0B5K9DTGV/ref=apps_sf_sta')">Download on Amazon</div>
+    <div class="download-button" onclick="showPopup('Galaxy', 'Version 3.0', 'Galaxy', '02-23-2023', 'https://apps.samsung.com/appquery/appDetail.as?appId=com.LaganDevs.LTunes')">Download on Galaxy Store</div>
+    <div class="download-button" onclick="showPopup('Windows', 'Version 3.0', 'Windows', '03-22-23', 'https://www.mediafire.com/file/bf9v5snmturuniv/Setup.exe/file')">Download for Windows 10/11</div>
+    <div class="download-button" onclick="showPopup('Android', 'Version 3.0', 'Android', '02-23-2023', 'https://ltunes.gq/assets/LTunes.apk')">Download for Android</div>
+    <div class="download-button" onclick="showPopup('Sidequest', 'Version 3.0', 'Sidequest', '04-13-2023', 'https://sidequestvr.com/app/15155/ltunes')">Download on Sidequest</div>
+  </div>
+
+  <div id="downloadPopup" class="download-popup">
+    <div class="download-popup-content">
+      <span class="close" onclick="hidePopup()">&times;</span>
+      <h2>Version 1.0</h2>
+      <p>Operating System: <span id="os"></span></p>
+      <p>Date of Release: <span id="releaseDate"></span></p>
+      <a href="#" id="downloadLink" target="_blank" class="download-button">Download</a>
+    </div>
+  </div>
+
+  <script>
+    function showPopup(os, version, operatingSystem, releaseDate, downloadUrl) {
+      document.getElementById("os").innerHTML = operatingSystem;
+      document.getElementById("releaseDate").innerHTML = releaseDate;
+      document.getElementById("downloadLink").href = downloadUrl;
+      document.getElementById("downloadPopup").style.display = "block";
+    }
+
+    function hidePopup() {
+      document.getElementById("downloadPopup").style.display = "none";
+    }
+  </script>
+<a target="_blank" href="https://www.ltunes.gq/assets/record-20220725-153451.mp4">How to install app on android</a>
+</center>
+<style>
+	img {
+  max-width: 100%;
+  height: auto;
+}
+	.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0 0 0 0%;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;	
+    overflow: hidden;
+	}
+	html {
+	background: #1e1e1e;
+	color: #FFFFFF;
+	}
+</style>
+</html>
